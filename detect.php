@@ -3,8 +3,8 @@
 // set variables
 $queryUrl = "http://api.kairos.com/detect";
 $imageObject = '{"image":" https://media.kairos.com/liz.jpg"}';
-$APP_ID = "b91c191d";
-$APP_KEY = "3d61b73125a7d66d8588d8414b6a15a9";
+$APP_ID = "Your app id";
+$APP_KEY = "Your app secret";
 $request = curl_init($queryUrl);
 // set curl options
 curl_setopt($request, CURLOPT_POST, true);
